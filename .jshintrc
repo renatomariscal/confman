@@ -1,0 +1,30 @@
+{
+    // JSHint Default Configuration File (as on JSHint website)
+    // See http://jshint.com/docs/ for more details
+
+    "maxerr"    : 50,       // {int} Maximum error before stopping
+
+    // Enforcing
+    "camelcase" : true,     // true: Identifiers must be in camelCase
+    "curly"     : true,     // true: Require {} for every new block or scope
+    "indent"    : 4,        // {int} Number of spaces to use for indentation
+    "newcap"    : true,     // true: Require capitalization of all constructor functions e.g. `new F()`
+    "nonew"     : true,     // true: Prohibit use of constructors for side-effects (without assignment)
+    "quotmark"  : "single", // Quotation mark consistency:
+    "undef"     : true,     // true: Require all non-global variables to be declared (prevents global leaks)
+    "strict"    : true,     // true: Require all functions to run in ECMAScript 5's strict mode
+    "eqeqeq"    : true,     // Require triple equals i.e. `===`.
+    "unused"    : "vars",   // warn of unused vars
+    "latedef"   : "nofunc", // can use functions before defining, but not variables
+    "expr"      : true,     // true: Allow use of expression statements (e.g. foo && foo();)
+    "esversion" : 6,        // allow ES6 semantics: let, const, etc.
+
+    // Environments
+    "node"      : true,      // Node.js
+    "smarttabs" : false,
+
+    "globals"       : {
+        "Promise"   : true
+    }
+}
+

@@ -1,0 +1,54 @@
+coverage/
+doc/
+reports/
+generated/
+
+
+# Created by http://www.gitignore.io
+
+### Node ###
+lib-cov
+lcov.info
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+build
+.grunt
+
+node_modules
+node_modules_prod
+
+### Linux ###
+*~
+
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two \r.
+Icon
+
+
+# Thumbnails
+._*
+
+### IDE specific project files ###
+.idea
+.vscode
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Build properties (generated at build-time)
+.build.properties
